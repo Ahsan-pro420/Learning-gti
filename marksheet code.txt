@@ -1,0 +1,43 @@
+void main() {
+  print("MARKSHEET");
+  print("\n");
+
+  int a = 85;
+
+  int b = 80;
+
+  int c = 75;
+
+  int d = 70;
+
+  int e = 65;
+
+  int Total = a + b + c + d + e;
+
+  num Per = Total / 500 * 100;
+
+  print("Total Marks Obtained: $Total");
+
+  print("\n");
+
+  print("Percentage: $Per ");
+
+  print("\n");
+
+  print("Remarks:");
+
+  if (Per >= 33 && Per <= 39) {
+    print("your Grade is E");
+  } else if (Per >= 40 && Per <= 49) {
+    print("Your Grade is D");
+  } else if (Per >= 50 && Per <= 59) {
+    print("Your Grade is C");
+  } else if (Per >= 60 && Per <= 69) {
+    print("Your Grade is B");
+  } else if (Per >= 70 && Per < 79) {
+    print(" Your Grade is A");
+  } else if (Per > 80 && Per <= 100) {
+    print("your Grade is A+");
+  } else
+    print("You are Fail");
+}
