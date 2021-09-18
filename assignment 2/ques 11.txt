@@ -1,0 +1,16 @@
+QUESTION NUMBER 11;
+
+We can use range function to change city name
+void main(){
+  
+  String city = 'Hyderabad';
+  String new_city  = city.replaceRange(0, 5 ,"Islam"); 
+
+  print("Old name was ${city}");
+  print("New name is ${new_city}");
+}
+RESULT:
+Old name was Hyderabad
+New name is Islamabad
+
+

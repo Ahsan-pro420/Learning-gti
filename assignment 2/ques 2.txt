@@ -1,0 +1,24 @@
+QUESTION NUMBER 2:
+
+void main (){
+  
+  var a = 2;
+  var b = 1;
+  
+  var result = --a - --b + ++b + b--;
+  print(result);
+  
+}
+RESULT:
+1 - 0 + 1 + 1 
+print 3
+
+--a;
+First it decreaments that a beacomes 1 it gives out 1
+--a - --b;
+b = 1, it decrements gives 0 means 1 - 0 gives 1
+--a - --b + ++b;
+value of becomes 0 after + it increments becomes 1, 1 - 0 + 1 gives 2
+--a - --b + ++b + b--;
+as value of b becomes 1, then 1 - 0 + 1 + 1 gives 3, the decrement after the 
+b at the end does run at the back but print till b.

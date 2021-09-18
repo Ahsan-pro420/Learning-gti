@@ -1,0 +1,96 @@
+QUESTION NUMBER 6:
+Following are the data types use in dart
+
+1-Number
+a-int:Use to assign number values.
+b-double:Use to assign decimal values.
+c-num:Use to assign both decimal and integar values.
+
+void main(){
+  
+  int age = 20;
+  print("Ahsan is $age yrs old");
+  
+  double temperature = 39.5;
+  print("Today Karachi temperature is $temperature");
+}
+Result:
+Ahsan is 20 yrs old
+Today Karachi temperature is 39.5
+
+c.
+void main(){
+  
+  num age = 20;
+  print("Ahsan is $age yrs old");
+  
+  num temperature = 39.5;
+  print("Today Karachi temperature is $temperature");
+}
+RESULT:
+Ahsan is 20 yrs old
+Today Karachi temperature is 39.5
+
+2-String
+void main(){
+  
+  String name = "Ahsan";
+  print(name);
+  
+  String email = "ahsanjunaid.aj@gmail.com";
+  print(email);
+}
+RESULT:
+Ahsan
+ahsanjunaid.aj@gmail.com
+
+3-Booleans:It gives boolean values true or false
+void main(){
+bool check;  
+   int val1=12;
+   int val2=9;
+    
+  
+   check=(val1>val2);
+   print(check);
+}
+RESULT:
+true
+
+4-List:Its an ordered group of object
+
+void main(){
+ 
+ /*list methods*/
+ var lst = [1,2,3,4,5,6];
+ var a = lst.first;
+ var b = lst.last;
+ var c = lst.elementAt(1);
+ var len = lst.length;
+  
+ print("Ther are $len elements in the list");
+ print('The First Element is $a');
+ print('The Last Element is $b');
+ print("The Element at index 1 is $c");
+  
+}
+RESULT:
+Ther are 6 elements in the list
+The First Element is 1
+The Last Element is 6
+The Element at index 1 is 2
+
+5.Map:A map is a collection of key/value pairs.
+
+void main(){
+ 
+  var data = {'name':'Ahsan','age':'15'};
+  print (data);
+  print(data.keys);
+  print(data.values);
+  
+}
+RESULT:
+{name: Ahsan, age: 15}
+(name, age)
+(Ahsan, 15)

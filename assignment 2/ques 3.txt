@@ -1,0 +1,19 @@
+QUESTION NUMBER 3:
+
+void main(){
+  
+  print("Cost of Movie Ticket:");
+  
+  int x = 600;
+  int y = 5;
+  print("Cost of 1 Movie Ticket is $x");
+  int z = x*y;
+  print("Cost of 5 Movie Ticket is $z");
+  
+  
+}
+RESULT:
+Cost of Movie Ticket:
+Cost of 1 Movie Ticket is 600
+Cost of 5 Movie Ticket is 3000
+

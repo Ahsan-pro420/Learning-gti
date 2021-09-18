@@ -1,0 +1,73 @@
+QUESTION NUMBER 1:
+We have many operatos to work with folloeing are examples of these operators.
+/*there are various type of operators in Dart.
+ * such as :Arithmetic operators, Equivalent and relational operators ,logical operators
+ * Arithmetic operators*/
+void main(){
+  var a=8;
+  var b=3;
+  var c= a+b;/addition/
+  print("$c addition");
+  var d=a-b; /subtraction/
+  print("$d subtraction");
+  int e=a*b;/multiplication/
+  print("$e multiplication");
+  double f=a/b;/division/
+  print("$f division");
+  int g=a~/b;/division integer result/
+  print("$g division integer result"); 
+  int h=a%b; /remainder of integer division/
+  print("$h remainder of integer division");
+ 
+  print("${++b} increment in b"); /increment in b/
+  
+  print("${--a} decrement in a"); /decrement in a/
+  
+  
+  
+  /* Equivalent and Relational Operators*/
+  bool i=a>b;
+  print("$i,greater than");
+  bool j=a<b;
+  print("$j smaller than");
+  bool k=a>=b;
+  print("$k greater than and equal");
+  bool l= a<=b;
+  print("$l smaller than and equal");
+  bool m= a==b;
+  print("$m equality");
+  bool n= a!=b;
+  print("$n not equal");
+  
+  
+  
+  
+  
+  /* Logical Operators*/
+  bool o=a+b>10&&a-b<10;
+  print("$o And operator(all expression must be true) for true result");
+  
+  bool p= a+b>10 || a-b>10;
+  print ("$p OR Operator(atleast one expression must be true) for true result");
+  
+  bool q= a<b;
+  print ("${!q} Not equal(return inverse of the result)");
+ }
+RESULT:
+11 addition
+-1 subtraction
+30 multiplication
+0.8333333333333334 division
+0 division integer result
+5 remainder of integer division
+7 increment in b
+4 decrement in a
+false,greater than
+true smaller than
+false greater than and equal
+true smaller than and equal
+false equality
+true not equal
+true And operator(all expression must be true) for true result
+true OR Operator(atleast one expression must be true) for true result
+false Not equal(return inverse of the result)
