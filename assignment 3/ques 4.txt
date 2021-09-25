@@ -1,0 +1,25 @@
+QUESTION NUMBER 4:
+
+void main(){
+  
+ int x,n=0,flag=0;
+  int num = 7;
+
+  n=num~/2;
+
+  for(x = 2;x<=n;x++){
+    if(num%x == 0){
+      print('$num is not a prime number');
+      flag=1;
+      break;
+    }
+  }
+
+  if(flag==0){
+    print('$num is prime number');
+  }
+}
+RESULT:
+7 is a Prime Number
+for other vale 8
+8 is not a Prime Number

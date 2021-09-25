@@ -1,0 +1,21 @@
+QUESTION NUMBER 4:
+
+void main(){
+  
+  var a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+  var b = [];
+  
+  for(var i in a){
+    if(i%2==0){
+      b.add(i);
+    }
+  }
+  print(a);
+  print("Even Numbers From Above List");
+  print(b);
+}
+
+RESULT:
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Even Numbers From Above List
+[4, 16, 36, 64, 100]

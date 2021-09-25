@@ -1,0 +1,18 @@
+QUESTION NUMBER 10:
+
+void main(){
+  
+  var a = "a";
+  
+  if(a=="a" || a=="e" ||  a=="i" || a=="o" || a=="u"){
+    print("Alphabet $a is a vowel");
+  }
+  else{}
+    print("Alphabet $a is a consonent");
+
+}
+RESULT:
+Alphabet a is a vowel
+
+and if i put b 
+it gives b is a consonant.

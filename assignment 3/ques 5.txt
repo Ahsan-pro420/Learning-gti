@@ -1,0 +1,27 @@
+QUESTION NUMBER 5:
+
+void main(){
+   var number = 7;
+
+  for (var i=1; i<=15; i++){
+
+    print (number*i);
+
+  }
+RESULT:
+
+7
+14
+21
+28
+35
+42
+49
+56
+63
+70
+77
+84
+91
+98
+105

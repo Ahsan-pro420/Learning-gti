@@ -1,0 +1,34 @@
+QUESTION NUMBER 9:
+
+void main(){
+   
+  // Let user give first number and second number
+ var firstnumber = 10;
+ var secondnumber = 5;
+  
+ // Let user now give operation between 2 inputs in calculator
+  
+  var operation = '*';
+  
+  if (operation == '+'){
+    print (firstnumber+secondnumber);  
+  }
+  else if(operation == "-"){
+    print(firstnumber-secondnumber);
+  }
+  else if(operation == "*"){
+    print(firstnumber*secondnumber);
+  }
+  else if(operation == "/"){
+    print(firstnumber/secondnumber);
+  }
+  else if(operation == "%"){
+    print(firstnumber%secondnumber);
+  }
+}
+RESULT:
+for "+" = 15
+for "*" = 50
+for "-" = 5
+for "/" = 2
+for "%" = 0

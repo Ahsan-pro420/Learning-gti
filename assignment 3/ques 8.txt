@@ -1,0 +1,28 @@
+QUESTION NUMBER 8:
+
+void main(){
+  
+ print("Temperature Converter");
+ print("Celsius to Fahrenheit:");
+ 
+  num c = 45;
+  num b = ((c * 9/5) + 32);
+  
+  print("$c Celsius is $b Fahrenheit");
+  print("\n");
+  print("Fahrenheit to Celsius:");
+  num f = 32; 
+  num d = ((f - 32) * 5/9);
+  
+  print("$f Fahrenheit is $d Celsius");
+  
+}
+
+RESULT:
+Temperature Converter
+Celsius to Fahrenheit:
+45 Celsius is 113 Fahrenheit
+
+
+Fahrenheit to Celsius:
+32 Fahrenheit is 0 Celsius

@@ -1,0 +1,17 @@
+QUESTION NUMBER 6:
+
+void main(){
+  
+ List fruit = ["apple","banana","mango","orange","strawberry"];
+ 
+ for(var i in fruit){
+   print(i);
+ }
+}
+RESULT:
+
+apple
+banana
+mango
+orange
+strawberry
