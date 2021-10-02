@@ -1,0 +1,84 @@
+QUESTION NUMBER 04:
+
+void main(){
+  List num = [80.5,75,60.2,55,45,96,82];
+  List<String> name = ["Ahsan","Ali","Farhan","Osama","Bilal","Arsalan","Mashood"];
+  
+  for(var i=0; i<num.length;i++){
+  abc(num[i],i,name[i]);
+  }
+  
+}
+
+  void abc(per,rollnumber,name){
+  
+    if (per>=80){
+      print("Student name: $name");
+      print("Roll number: $rollnumber");
+      print("You have achieved A+ grade");
+      print("\n");
+    }
+    else if (per<=79 && per >=60){
+      print("Student name: $name");
+      print("Roll number: $rollnumber");
+      print("You have achieved A grade");
+      print("\n");
+      
+      
+    }
+    else if (per <=59 && per >=49){
+      print("Student name: $name");
+      print("Roll number: $rollnumber");
+      print("You have achieved B grade");
+      print("\n");
+    }
+    else if (per <=48 && per >=40){
+      print("Student name: $name");
+      print("Roll number: $rollnumber");
+      print("You have achieved C grade");
+      print("\n");
+    }
+    else{
+      print("Student name: $name");
+      print("Roll number: $rollnumber");
+      print("You are Fail");
+      print("\n");
+    }
+    
+ }
+  
+RESULT:
+Student name: Ahsan
+Roll number: 0
+You have achieved A+ grade
+
+
+Student name: Ali
+Roll number: 1
+You have achieved A grade
+
+
+Student name: Farhan
+Roll number: 2
+You have achieved A grade
+
+
+Student name: Osama
+Roll number: 3
+You have achieved B grade
+
+
+Student name: Bilal
+Roll number: 4
+You have achieved C grade
+
+
+Student name: Arsalan
+Roll number: 5
+You have achieved A+ grade
+
+
+Student name: Mashood
+Roll number: 6
+You have achieved A+ grade
+
